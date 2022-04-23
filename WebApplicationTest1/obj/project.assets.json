@@ -72,6 +72,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "WebApplicationTest1.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WebApplicationTest1.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApplicationTest1.Models.dll": {}
+        }
+      },
+      "WebApplicationTest1.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "WebApplicationTest1.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WebApplicationTest1.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApplicationTest1.Services.dll": {}
+        }
       }
     }
   },
@@ -200,11 +223,22 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "WebApplicationTest1.Models/1.0.0": {
+      "type": "project",
+      "path": "../WebApplicationTest1.Models/WebApplicationTest1.Models.csproj",
+      "msbuildProject": "../WebApplicationTest1.Models/WebApplicationTest1.Models.csproj"
+    },
+    "WebApplicationTest1.Services/1.0.0": {
+      "type": "project",
+      "path": "../WebApplicationTest1.Services/WebApplicationTest1.Services.csproj",
+      "msbuildProject": "../WebApplicationTest1.Services/WebApplicationTest1.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "WebApplicationTest1.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -233,7 +267,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ashen\\source\\repos\\WebApplicationTest1\\WebApplicationTest1.Services\\WebApplicationTest1.Services.csproj": {
+              "projectPath": "C:\\Users\\Ashen\\source\\repos\\WebApplicationTest1\\WebApplicationTest1.Services\\WebApplicationTest1.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

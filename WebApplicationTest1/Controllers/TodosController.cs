@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using WebApplicationTest1.Models;
 using System.Linq;
 using WebApplicationTest1.Services;
 
@@ -10,11 +9,11 @@ namespace WebApplicationTest1.Controllers
     [ApiController]
     public class TodosController : ControllerBase
     {
-        private TodoService _todoService;
+        private readonly ITodoRepository _todoService;
 
-        public TodosController()
+        public TodosController(ITodoRepository repository)
         {
-            _todoService = new TodoService();
+            _todoService = repository;
         }
 
         [HttpGet("{id?}")]

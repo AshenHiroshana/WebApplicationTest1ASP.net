@@ -1,0 +1,12 @@
+C:\Users\Ashen\source\repos\WebApplicationTest1\WebApplicationTest1.Models\bin\Debug\net6.0\WebApplicationTest1.Models.deps.json
+C:\Users\Ashen\source\repos\WebApplicationTest1\WebApplicationTest1.Models\bin\Debug\net6.0\WebApplicationTest1.Models.dll
+C:\Users\Ashen\source\repos\WebApplicationTest1\WebApplicationTest1.Models\bin\Debug\net6.0\ref\WebApplicationTest1.Models.dll
+C:\Users\Ashen\source\repos\WebApplicationTest1\WebApplicationTest1.Models\bin\Debug\net6.0\WebApplicationTest1.Models.pdb
+C:\Users\Ashen\source\repos\WebApplicationTest1\WebApplicationTest1.Models\obj\Debug\net6.0\WebApplicationTest1.Models.csproj.AssemblyReference.cache
+C:\Users\Ashen\source\repos\WebApplicationTest1\WebApplicationTest1.Models\obj\Debug\net6.0\WebApplicationTest1.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashen\source\repos\WebApplicationTest1\WebApplicationTest1.Models\obj\Debug\net6.0\WebApplicationTest1.Models.AssemblyInfoInputs.cache
+C:\Users\Ashen\source\repos\WebApplicationTest1\WebApplicationTest1.Models\obj\Debug\net6.0\WebApplicationTest1.Models.AssemblyInfo.cs
+C:\Users\Ashen\source\repos\WebApplicationTest1\WebApplicationTest1.Models\obj\Debug\net6.0\WebApplicationTest1.Models.csproj.CoreCompileInputs.cache
+C:\Users\Ashen\source\repos\WebApplicationTest1\WebApplicationTest1.Models\obj\Debug\net6.0\WebApplicationTest1.Models.dll
+C:\Users\Ashen\source\repos\WebApplicationTest1\WebApplicationTest1.Models\obj\Debug\net6.0\ref\WebApplicationTest1.Models.dll
+C:\Users\Ashen\source\repos\WebApplicationTest1\WebApplicationTest1.Models\obj\Debug\net6.0\WebApplicationTest1.Models.pdb
