@@ -5,7 +5,22 @@
       "ProjectGuid": "d2ae2df2-9e4d-490a-9295-7576d9775097",
       "DisplayName": "WebApplicationTest1",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "988bd741-3b90-45fa-b42a-a2a89bd986db": {
+      "ProjectGuid": "988bd741-3b90-45fa-b42a-a2a89bd986db",
+      "DisplayName": "WebApplicationTest1.Models",
+      "ColorIndex": 1
+    },
+    "bc9f4eaa-7112-4b84-8c8f-304b6968c94e": {
+      "ProjectGuid": "bc9f4eaa-7112-4b84-8c8f-304b6968c94e",
+      "DisplayName": "WebApplicationTest1.Services",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

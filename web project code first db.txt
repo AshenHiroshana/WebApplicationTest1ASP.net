@@ -1,0 +1,56 @@
+
+
+PM> dotnet ef
+
+PM> dotnet tool install --global dotnet-ef
+
+PM> dotnet ef
+
+                     _/\__       
+               ---==/    \\      
+         ___  ___   |.    \|\    
+        | __|| __|  |  )   \\\   
+        | _| | _|   \_/ |  //|\\ 
+        |___||_|       /   \\\/\\
+
+Entity Framework Core .NET Command-line Tools 6.0.4
+
+
+
+PM> dotnet ef migrations add Install --project WebApplicationTest1.DataAccess
+Build started...
+Build failed. Use dotnet build to see the errors.
+
+PM> dotnet ef migrations add Install --project WebApplicationTest1.DataAccess
+Build started...
+Build succeeded.
+Done. To undo this action, use 'ef migrations remove'
+
+
+PM> dotnet ef database update --project WebApplicationTest1.DataAccess
+Build started...
+Build succeeded.
+Applying migration '20220423064021_Install'.
+Done.
+
+PM> dotnet ef migrations add SeedData --project WebApplicationTest1.DataAccess
+Build started...
+Build succeeded.
+Done. To undo this action, use 'ef migrations remove'
+
+PM> dotnet ef migrations add SeedData --project WebApplicationTest1.DataAccess
+Build started...
+Build succeeded.
+The name 'SeedData' is used by an existing migration.
+
+PM> dotnet ef migrations add SeedData --project WebApplicationTest1.DataAccess
+Build started...
+Build succeeded.
+Done. To undo this action, use 'ef migrations remove'
+
+PM> dotnet ef database update --project WebApplicationTest1.DataAccess
+Build started...
+Build succeeded.
+Applying migration '20220423073511_SeedData'.
+Done.
+PM> 
