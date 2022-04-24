@@ -11,6 +11,7 @@ namespace WebApplicationTest1.DataAccess
     public class TodoDbContext : DbContext
     {
         public DbSet<Todo> Todos { get; set; }
+        public DbSet<Author> Authors { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -19,14 +20,35 @@ namespace WebApplicationTest1.DataAccess
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Todo>().HasData(new Todo
+            modelBuilder.Entity<Author>().HasData(new Author[]
             {
-                Id = 1,
-                Title = "A",
-                Description = "A aa",
-                Created = DateTime.Now,
-                DueDate = DateTime.Now.AddDays(5),
-                Status = TodoStatus.New
+                new Author { Id = 1, FullName = "Ashen Hiroshana"},
+                new Author { Id = 2, FullName = "Shalika Hiroshana"}
+            });
+
+            modelBuilder.Entity<Todo>().HasData(new Todo[]
+            {
+                new Todo
+                {
+                    Id = 1,
+                    Title = "A",
+                    Description = "A aa",
+                    Created = DateTime.Now,
+                    DueDate = DateTime.Now.AddDays(5),
+                    Status = TodoStatus.New,
+                    AuthorId = 1
+                    
+                },
+                new Todo
+                {
+                    Id = 2,
+                    Title = "B",
+                    Description = "A aa",
+                    Created = DateTime.Now,
+                    DueDate = DateTime.Now.AddDays(5),
+                    Status = TodoStatus.New,
+                    AuthorId = 1
+                }
             });
         }
     }

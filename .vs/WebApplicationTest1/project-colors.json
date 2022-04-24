@@ -20,7 +20,12 @@
       "ProjectGuid": "bc9f4eaa-7112-4b84-8c8f-304b6968c94e",
       "DisplayName": "WebApplicationTest1.Services",
       "ColorIndex": 2
+    },
+    "082afa8d-cffe-4a75-bbf7-a5e79cbfe8c0": {
+      "ProjectGuid": "082afa8d-cffe-4a75-bbf7-a5e79cbfe8c0",
+      "DisplayName": "WebApplicationTest1.DataAccess",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

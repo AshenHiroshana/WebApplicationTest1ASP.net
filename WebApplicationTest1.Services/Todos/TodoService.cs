@@ -1,6 +1,6 @@
 ﻿using WebApplicationTest1.Models;
 
-namespace WebApplicationTest1.Services
+namespace WebApplicationTest1.Services.Todos
 {
     public class TodoService : ITodoRepository
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WebApplicationTest1.Models;
 
-namespace WebApplicationTest1.Services
+namespace WebApplicationTest1.Services.Todos
 {
     //dao
     public interface ITodoRepository
