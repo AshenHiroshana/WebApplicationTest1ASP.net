@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WebApplicationTest1.Models;
 using WebApplicationTest1.Services.Authors;
 
 
@@ -18,7 +19,7 @@ namespace WebApplicationTest1.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAuthors()
+        public ActionResult<ICollection<Author>> GetAuthors()
         {
             var authors = _authorRepository.GetAllAuthors();
             return Ok(authors);

@@ -1,9 +1,13 @@
-﻿namespace WebApplicationTest1.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace WebApplicationTest1.Models
 {
     public class Todo
     {
         public int Id { get; set; }
 
+        [Required]
+        [MaxLength(100)]
         public string Title { get; set; }
 
         public string Description { get; set; }

@@ -22,8 +22,9 @@ namespace WebApplicationTest1.DataAccess
         {
             modelBuilder.Entity<Author>().HasData(new Author[]
             {
-                new Author { Id = 1, FullName = "Ashen Hiroshana"},
-                new Author { Id = 2, FullName = "Shalika Hiroshana"}
+                new Author { Id = 1, FullName = "Ashen Hiroshana", AddressNo = "2", Street = "3", City = "col1"},
+                new Author { Id = 2, FullName = "Indeera Hiroshana", AddressNo = "4", Street = "2", City = "Gam"},
+                new Author { Id = 3, FullName = "Salika Hiroshana", AddressNo = "2", Street = "3", City = "col1"}
             });
 
             modelBuilder.Entity<Todo>().HasData(new Todo[]
